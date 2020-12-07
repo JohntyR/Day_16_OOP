@@ -1,9 +1,11 @@
 from coffee_maker import CoffeeMaker
 from menu import Menu, MenuItem
+from money_machine import MoneyMachine
 
 coffemaker = CoffeeMaker()
 coffemaker.report()
 my_menu = Menu()
+money_machine = MoneyMachine()
 
 
 while True:
